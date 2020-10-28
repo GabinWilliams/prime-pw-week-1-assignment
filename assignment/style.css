@@ -1,11 +1,16 @@
 /* Give your page a fun background color */
 body {
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+ 
 }
 
 /* Make the header and footer a different color from the background */
+/* Align the h1 containing your name in the center of the header*/
  header {
   background-color: azure; 
   margin: 0;
@@ -25,6 +30,8 @@ body {
 section {
   display: -webkit-flex;
   display: flex;
+  flex: 1;
+  
   
 }
 
@@ -32,9 +39,17 @@ section {
 nav {
   -webkit-flex: 1;
   -ms-flex: 1;
-  flex: 1;
+  flex: 0;
   background: #ccc;
   padding: 20px;
+}
+
+img {
+  width: 230px;
+  height: 300px;
+  text-align: center;
+  border: 5px solid #555;
+
 }
 
 /* Style the list inside the menu */
@@ -54,6 +69,7 @@ article {
 
   /* Style the footer */
   footer {
+    margin-top: auto;
     background-color: #777;
     padding: 10px;
     text-align: center;
@@ -62,7 +78,7 @@ article {
 
 
 
-/* Align the h1 containing your name in the center of the header*/
+
 
 /* Make your p tag a different color and italic */
 
