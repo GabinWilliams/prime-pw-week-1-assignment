@@ -12,16 +12,30 @@ body {
 /* Make the header and footer a different color from the background */
 /* Align the h1 containing your name in the center of the header*/
  header {
-  background-color: azure; 
+  background-color: #777;
   margin: 0;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   font-size: 35px;
   color: black;
   }
 
+  li {
+    padding: 5px;
+  }
+
+  ul {
+    list-style: none;
+  }
+  h3 {
+    margin-left: 44px;
+  }
+
+  
+
   p {
-    color: black;
+    color: white;
+    font-style: italic;
   }
 
 
@@ -52,11 +66,6 @@ img {
 
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
 
 /* Style the content */
 article {
