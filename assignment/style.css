@@ -6,50 +6,44 @@ body {
   background-color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
- 
 }
 
 /* Make the header and footer a different color from the background */
 /* Align the h1 containing your name in the center of the header*/
- header {
+header {
   background-color: #777;
   margin: 0;
   padding: 10px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 35px;
   color: black;
-  }
+}
 
 /* Change the font-family of your list */
-  li {
-    padding: 5px;
-    font-family: 'Open Sans', sans-serif;
-  }
+li {
+  padding: 5px;
+  font-family: "Open Sans", sans-serif;
+}
 
-  ul {
-    list-style: none;
-  }
-  h3 {
-    margin-left: 44px;
-  }
+ul {
+  list-style: none;
+}
+h3 {
+  margin-left: 44px;
+}
 
-  
 /* Make your p tag a different color and italic */
-  p {
-    color: white;
-    font-style: italic;
-  }
-
-
+p {
+  color: white;
+  font-style: italic;
+}
 
 /* Container for flexboxes */
 section {
   display: -webkit-flex;
   display: flex;
   flex: 1;
-  
-  
 }
 
 /* Style the navigation menu */
@@ -67,9 +61,7 @@ img {
   height: 300px;
   text-align: center;
   border: 5px solid #555;
-
 }
-
 
 /* Style the content */
 article {
@@ -80,19 +72,11 @@ article {
   padding: 10px;
 }
 
-  /* Style the footer */
-  footer {
-    margin-top: auto;
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: gray;
-  }
-
-
-
-
-
-
-
-
+/* Style the footer */
+footer {
+  margin-top: auto;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: gray;
+}
