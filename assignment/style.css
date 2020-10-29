@@ -16,12 +16,15 @@ body {
   margin: 0;
   padding: 10px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
   font-size: 35px;
   color: black;
   }
 
+/* Change the font-family of your list */
   li {
     padding: 5px;
+    font-family: 'Open Sans', sans-serif;
   }
 
   ul {
@@ -32,7 +35,7 @@ body {
   }
 
   
-
+/* Make your p tag a different color and italic */
   p {
     color: white;
     font-style: italic;
@@ -58,6 +61,7 @@ nav {
   padding: 20px;
 }
 
+/* Put a border around your image */
 img {
   width: 230px;
   height: 300px;
@@ -89,8 +93,6 @@ article {
 
 
 
-/* Make your p tag a different color and italic */
 
-/* Put a border around your image */
 
-/* Change the font-family of your list */
+
